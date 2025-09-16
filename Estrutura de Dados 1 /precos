@@ -1,0 +1,12 @@
+public class Main {
+    public static void main(String[] args) {
+        double[] precos = {1.50, 2.75, 5.00, 3.25};
+        double soma = 0;
+
+        for (int i = 0; i < 4; i++) {
+            soma = soma + precos[i];
+        }
+
+        System.out.println(soma);
+    }
+}
