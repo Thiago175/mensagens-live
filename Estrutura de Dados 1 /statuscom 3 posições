@@ -1,0 +1,11 @@
+public class VetorBoolean {
+    public static void main(String[] args) {
+        boolean[] status = {true, false, true};
+
+        if (status[0]) {
+            System.out.println("O primeiro status está ativo.");
+        } else {
+            System.out.println("O primeiro status está inativo.");
+        }
+    }
+}
